@@ -51,6 +51,8 @@
     "typescript-eslint": "^8.40.0"
   },
   "workspaces": [
-    "apps/*"
+    "apps/*",
+    "@monorepo/*",
+    "storefront"
   ]
 }

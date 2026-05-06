@@ -11,7 +11,7 @@ const config = {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nx/react/plugins/jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/apps/monorepo-frontend',
+  coverageDirectory: '../../coverage/apps/storefront',
   testEnvironment: 'jsdom',
 };
 
