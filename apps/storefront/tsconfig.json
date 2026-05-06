@@ -29,8 +29,8 @@
     "src/**/*.tsx",
     "src/**/*.js",
     "src/**/*.jsx",
-    "../../apps/monorepo-frontend/.next/types/**/*.ts",
-    "../../dist/apps/monorepo-frontend/.next/types/**/*.ts",
+    "../../apps/storefront/.next/types/**/*.ts",
+    "../../dist/apps/storefront/.next/types/**/*.ts",
     "next-env.d.ts"
   ],
   "exclude": [

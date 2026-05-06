@@ -4,7 +4,13 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/monorepo-frontend"
+      "path": "./apps/adminpanel"
+    },
+    {
+      "path": "./apps/storefront"
+    },
+    {
+      "path": "./apps/adminpanel"
     }
   ]
 }
