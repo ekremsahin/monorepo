@@ -1,15 +1,16 @@
-import NxWelcome from './nx-welcome';
-
+import { ProductCard } from '@monorepo/ui';
 import { Route, Routes, Link } from 'react-router-dom';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="@monorepo/adminpanel" />
-
-      {/* START: routes */}
-      {/* These routes and navigation have been generated for you */}
-      {/* Feel free to move and update them to fit your needs */}
+      <ProductCard
+        title="admin card"
+        description="admin app product card"
+        price={500}
+        onActionClick={() => console.log('admin click')}
+        actionText="admin confirm"
+      />
       <br />
       <hr />
       <br />
@@ -42,7 +43,6 @@ export function App() {
           }
         />
       </Routes>
-      {/* END: routes */}
     </div>
   );
 }

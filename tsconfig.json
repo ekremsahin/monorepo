@@ -10,7 +10,7 @@
       "path": "./apps/storefront"
     },
     {
-      "path": "./apps/adminpanel"
+      "path": "./libs/shared/ui"
     }
   ]
 }
