@@ -1,15 +1,25 @@
+import { ProductModel } from '@monorepo/types';
 import { ProductCard } from '@monorepo/ui';
 import { Route, Routes, Link } from 'react-router-dom';
+
+const DUMMY_PRODUCT: ProductModel = {
+  id: 'mockId',
+  title: 'adminCard',
+  description: 'admin app product card',
+  price: 500,
+  stockCount: 20,
+};
 
 export function App() {
   return (
     <div>
       <ProductCard
-        title="admin card"
-        description="admin app product card"
-        price={500}
+        title={DUMMY_PRODUCT.title}
+        description={DUMMY_PRODUCT.description}
+        price={DUMMY_PRODUCT.price}
+        stockCount={DUMMY_PRODUCT.stockCount}
         onActionClick={() => console.log('admin click')}
-        actionText="admin confirm"
+        actionText="Confirm"
       />
       <br />
       <hr />

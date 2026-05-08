@@ -1,6 +1,15 @@
 'use client';
 
+import { ProductModel } from '@monorepo/types';
 import { ProductCard } from '@monorepo/ui';
+
+const DUMMY_PRODUCT: ProductModel = {
+  id: 'mockId',
+  title: 'Customer Card',
+  description: 'this is the best pruduct',
+  price: 200,
+  stockCount: 10,
+};
 
 export default function Index() {
   return (
@@ -13,9 +22,10 @@ export default function Index() {
               Welcome @monorepo/monorepo-frontend 👋
             </h1>
             <ProductCard
-              title="test card"
-              description="this is the test card component"
-              price={200}
+              title={DUMMY_PRODUCT.title}
+              description={DUMMY_PRODUCT.description}
+              price={DUMMY_PRODUCT.price}
+              stockCount={DUMMY_PRODUCT.stockCount}
               onActionClick={() => console.log('Action Button Clicked')}
               actionText="confirm"
             />
