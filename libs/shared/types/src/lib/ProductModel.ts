@@ -4,6 +4,6 @@ export interface ProductModel {
   description: string;
   price: number;
   stockCount: number;
-  imageUrl?: string;
+  imageUrl?: string | null;
   createdAt?: Date | string;
 }

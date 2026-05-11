@@ -12,5 +12,10 @@
     "target": "es2021"
   },
   "include": ["src/**/*.ts"],
+  "references": [
+    {
+      "path": "../../libs/shared/types/tsconfig.lib.json"
+    }
+  ],
   "exclude": ["eslint.config.js", "eslint.config.cjs", "eslint.config.mjs"]
 }
