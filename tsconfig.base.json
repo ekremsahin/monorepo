@@ -19,7 +19,8 @@
     "customConditions": ["@monorepo/source"],
     "paths": {
       "@monorepo/ui": ["./libs/shared/ui/src/index.ts"],
-      "@monorepo/types": ["./libs/shared/types/src/index.ts"]
+      "@monorepo/types": ["./libs/shared/types/src/index.ts"],
+      "@monorepo/api-types": ["./libs/shared/api-types/src/index.ts"]
     }
   }
 }
